@@ -1,7 +1,7 @@
 let isloggedIn = "Hitesh"
 let isloggedInbool = Boolean(isloggedIn)
 console.log(isloggedInbool)
-
+// 0 is considered as falsy value,nan,empty string
 let isloggedIn1 = 1
 let isloggedInbool1 = Boolean(isloggedIn1)
 console.log(isloggedInbool1)
@@ -20,13 +20,16 @@ console.log("1" + "3" +5) // first two are strings then 3rd one will ave convers
 
 console.log(num3)
 
-console.log("3" = 1)
+//console.log("3" == 1)//
 
 console.log(typeof number1)
-/*
-console.log(null > 0);
+
+console.log(null > 0); // it is a falsy value
 
 console.log(null == 0)
 
+console.log("3" == 3)
+
+console.log(null >= 0)
+
 console.log("3" > "1")
-*/
