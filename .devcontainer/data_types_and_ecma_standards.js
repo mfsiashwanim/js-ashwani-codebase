@@ -9,3 +9,5 @@ console.log(typeof null)
 
 String => "abcd";
 console.log(String)
+
+console.log(2+3+"4")
