@@ -1,6 +1,6 @@
 //PRIMITVE DATATYPES
 
-// 7 TYPES : STRINGS,NUMBER.BOOLEAN,SYMBOL,BIGINT(FOR LARGE RANGE OF VALUES)
+// 7 TYPES : STRINGS,NUMBER.BOOLEAN,SYMBOL,BIGINT(FOR LARGE RANGE OF VALUES),null,undefined
 
 //REFERENCE TYPE : ARRAY,OBJECTS,FUNCTIONS,CONST
 
@@ -32,9 +32,16 @@ console.log(typeof heros)
 console.log(typeof id)
 //console.log(typeof )
 
-console.log( {
+let myobj = ( {
     name : 'Ashwani',
     age : 29
 })
 
 console.log(myobj)
+
+let func = function(){
+    console.log("hello world")
+}
+
+console.log(typeof func) // return type is called as object function
+console.log(typeof myobj) // return type as object
