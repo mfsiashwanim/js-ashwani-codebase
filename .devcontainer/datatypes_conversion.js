@@ -16,11 +16,11 @@ console.log(typeof valinnumber)  // it is not a number conversion still  it will
 console.log(valinnumber)  // not a number as it is not a number conversion
 
 console.log(1 + 2 + "3") // there is first conversion of first two digits and then addition to string ads 3rd one is string
-console.log("1" + "3" +5) // first two are strings then 3rd one will ave conversion
+console.log("1" + "3" + 5) // first two are strings then 3rd one will ave conversion
 
 console.log(num3)
 
-//console.log("3" == 1)//
+console.log("3" == 1)
 
 console.log(typeof number1)
 
