@@ -18,22 +18,29 @@ myarray2.pop()
 
 console.log(myarray2)
 
-const myarray3 = new Array('hitesh','ashwani','mukesh','rohit')
-const myarray4 = new Array('rak','rup','puyesh','rktm')
-console.log(myarray3.concat(myarray4))
+const s2 = new Set();
+s2.add(myarray)
+
+console.log(s2)
+
+
 const arr = [1,2,2,3,4,4,5,6]
-//console.log(myarray3)
-console.log("A init array: ",arr)
-const myarray5 = arr.slice(1,3)
-console.log(myarray5)
+console.log(new Set(arr));
 
-console.log("B array change after slice: ",arr)
-const myarray6 = arr.splice(1,3)
-console.log(myarray6)
-console.log("C array after splice:",arr)
+myarray.push(6)
+console.log(myarray)
 
-const arr5  = [1,2,3,4,[2,3,4,5],4,5,[1,2,3,4,5,6]]
-console.log(arr5)
+const newArray = new Array(1,2,3,4,5);
+console.log(newArray)
 
-console.log(Array.isArray("hitesh"))
-console.log(Array.from("hitesh"))
+const myarr2 = newArray.join()
+console.log(myarr2)
+
+console.log(typeof myarr2)
+
+myarray.unshift(9)
+console.log(myarray)
+myarray.shift()
+console.log(myarray)
+
+console.log(newArray.includes(5))
