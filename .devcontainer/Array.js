@@ -18,4 +18,29 @@ myarray2.pop()
 
 console.log(myarray2)
 
+const s2 = new Set();
+s2.add(myarray)
 
+console.log(s2)
+
+
+const arr = [1,2,2,3,4,4,5,6]
+console.log(new Set(arr));
+
+myarray.push(6)
+console.log(myarray)
+
+const newArray = new Array(1,2,3,4,5);
+console.log(newArray)
+
+const myarr2 = newArray.join()
+console.log(myarr2)
+
+console.log(typeof myarr2)
+
+myarray.unshift(9)
+console.log(myarray)
+myarray.shift()
+console.log(myarray)
+
+console.log(newArray.includes(5))
