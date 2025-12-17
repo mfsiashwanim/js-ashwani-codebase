@@ -43,3 +43,43 @@ console.log(arrprintsecondval(arr))
 console.log(arrprintsecondval([10,20,30,40]))
 
 console.log(userlogin())
+
+const user = {
+    name : "hitesh",
+    price  : 20000,
+
+    welcomemessage : function(){
+        console.log(`${this.name} , loggins to the portal`)
+    }
+}
+
+const abc =  function(){
+    console.log("hello world")
+}
+const chai = () => {
+    console.log(`${this.name} , loggins into the portal`)
+    }
+user.welcomemessage()
+user.name = "deepesh"
+user.welcomemessage()
+
+const val = () =>{
+    const username = "hitesh"
+    console.log(`${username} , loggins into the portal`)
+}
+
+console.log(chai())
+
+const addtwo = (num1,num2) => num1+num2  // implicit return 
+
+const addtwo1 = (num1,num2) => {   // explicit return 
+    return num1 + num2
+}
+
+
+console.log(addtwo(3,5))
+console.log(addtwo1(5,6))
+
+console.log(val())
+
+console.log(abc())
