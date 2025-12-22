@@ -44,3 +44,48 @@ myarray.shift()
 console.log(myarray)
 
 console.log(newArray.includes(5))
+console.log(newArray)
+
+const myarray3 = new Array('hitesh','ashwani','mukesh','rohit')
+const myarray4 = new Array('rak','rup','puyesh','rktm')
+console.log(myarray3.concat(myarray4))
+
+console.log("A : ",arr)
+const myarray5 = arr.slice(1,3)
+console.log(myarray5)
+
+console.log("B : ",arr)
+const myarray6 = arr.splice(1,3)
+console.log(myarray6)
+
+let arr2 = [10,20,30,1,2,3]
+
+let ar2 = arr2.filter((a) => { 
+    return a>10 })
+
+
+console.log(ar2)
+
+let a = 10
+
+if(true){
+     let a=20
+    const b=30
+    var c=40
+}
+
+console.log(a)
+//console.log(b)
+console.log(c)
+
+console.log(arr2.slice(2,3))
+
+console.log(typeof 5)
+
+console.log(ar2.slice(1,1))
+
+console.log(newArray.isArray())
+
+console.log(myarray3[0].isString())
+
+console.log()

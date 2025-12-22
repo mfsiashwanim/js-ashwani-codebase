@@ -1,7 +1,7 @@
 const name = "hitesh"
 
 const repocount = 50
-
+/*
 const gamename = new String("hitesh-ch")
 console.log(gamename)
 
@@ -38,3 +38,12 @@ for (let i =0;i<gameName.length;i++){
         console.log(gameName.substring(i,j))
     }
 }
+*/
+s = "abcabcabc"
+console.log(s.substring(0,3).length)
+s1=new Set(s.substring(0,3))
+console.log(s.substring(0,3).length === s1.length)
+/*
+console.log(s.split(s.substring(0,4)).length-1)
+console.log(new Set(s.substring(0,4)))
+*/
