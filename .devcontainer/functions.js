@@ -36,7 +36,7 @@ function arrprintsecondval(arr){
 }
 
 //arrval(arr)
-
+/*
 handleobject(userval)
 
 console.log(arrprintsecondval(arr))
@@ -44,33 +44,33 @@ console.log(arrprintsecondval(arr))
 console.log(arrprintsecondval([10,20,30,40]))
 
 console.log(userlogin())
-
+*/
 const user = {
     name : "hitesh",
     price  : 20000,
 
-    welcomemessage : function(){
-        console.log(`${this.name} , loggins to the portal`)
-    }
-}
+    // welcomemessage : function(){
+    //     console.log(`${this.name} , loggins to the portal`)
+    // }
 
-const abc =  function(){
-    console.log("hello world")
-}
-const chai = () => {
+
+// const abc =  function(){
+//     console.log("hello world")
+ }
+const chai =() => {
     console.log(`${this.name} , loggins into the portal`)
     }
-user.welcomemessage()
-user.name = "deepesh"
-user.welcomemessage()
+// user.welcomemessage()
+// user.name = "deepesh"
+// user.welcomemessage()
 
-const val = () =>{
-    const username = "hitesh"
-    console.log(`${username} , loggins into the portal`)
-}
+// const val = () =>{
+//     const username = "hitesh"
+//     console.log(`${username} , loggins into the portal`)
+// }
 
 console.log(chai())
-
+/*
 const addtwo = (num1,num2) => num1+num2  // implicit return 
 
 const addtwo1 = (num1,num2) => {   // explicit return 
@@ -102,3 +102,59 @@ function C(){
 A()
 B()
 C()
+
+
+
+
+function greet(name,callback){    // callback functions
+    console.log(`Hello ${name}`)
+    callback()
+}
+
+function saygoodbye(){
+    console.log("good bye")
+}
+
+greet("Alice",saygoodbye)
+greet("Ashwani",saygoodbye)
+greet("rohit",saygoodbye)
+
+
+function colour(colour,callback){
+    console.log(`${colour}`)
+    callback()
+
+}
+
+function callback(){
+    console.log("is a colour")
+}
+
+colour("Red",callback)
+
+function func(res){
+    res()
+}
+
+function res(){
+        console.log({name : "ashwani" , emailID : "ashwani.mishra938@gmail.com"})
+}
+
+func(res)
+
+
+
+
+
+function greet(name,callback){
+    console.log(`Hello ${this.name} `)
+}
+
+// num = [1,2,3,4,5]
+// function abc(...num){
+//     return num
+// }
+
+
+// console.log(abc())
+*/

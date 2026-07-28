@@ -42,8 +42,7 @@ console.log(myarray)
 
 console.log(newArray.includes(5))
 
-const myarr2 = newArray.join(myarray)
-console.log(myarr2)
+
 console.log(typeof myarr2)
 
 console.log(newArray)
@@ -99,8 +98,59 @@ console.log(typeof 5)
 
 console.log(ar2.slice(1,1))
 
-console.log(newArray.isArray())
+console.log(Array.isArray(arr3))
 
-console.log(myarray3[0].isString())
+//console.log(String.isString(myarray3[0]))
 
-console.log()
+//console.log()
+
+const heros = ["marvel","dc","comic"]
+const heros1 = ["batman","superman","spiderman"]
+
+const s9 = [...heros,...heros1]
+console.log(s9)
+
+newarray = ["I","am","Ashu"]
+const s1 = newarray.join(" and ")
+console.log(s1)
+
+const arr5 = [1,2,3,4,5]
+for(const num of arr5){
+    console.log(num)
+}
+
+const map = new Map()
+map.set("US","United states of america")
+map.set("UK","United Kingdom")
+map.set("BRI","BRITAIN")
+
+console.log(map)
+/*
+for(const key in map){
+    console.log(key)
+}
+*/
+const map1 = new Map()
+map1.set(0,"ash")
+map1.set(1,"def")
+map1.set(2,"fug")
+map1.set(3,"geh")
+
+console.log(map1)
+/*
+const n = {
+    "game" : "nfs",
+    "game2" : ""
+
+}
+for(const key in greetings){
+
+    console.log(`the key is ${key} and value is ${greetings[key]}`)
+}
+    */
+
+const fruits = ["apple","banana","mango"]
+console.log(fruits.join(","))
+
+const b = "HelloIamashu"
+console.log(Array.from(b))

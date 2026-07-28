@@ -23,7 +23,7 @@ console.log(scoreval)
 console.log(id)
 console.log(id1)
 console.log(id == id1)
-
+/*
 const heros = ["shaktimaan","naagraj","doga"]
 console.log(heros)
 
@@ -45,3 +45,6 @@ let func = function(){
 
 console.log(typeof func) // return type is called as object function
 console.log(typeof myobj) // return type as object
+
+console.log()
+*/

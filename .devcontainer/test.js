@@ -55,18 +55,26 @@ let n1=5
 let c = n>n1 ? n:n1
 console.log(c)
 */
-/*
+
 
 let g = prompt("what is your name?")
 console.log(g)
 
 let n3 = prompt("what is your age ? ")
 console.log(n3)
-*/
+
 
 arr = [2,3,4,5,6,7]
 console.log(arr[arr.length-1])
 
 arr.length = 1
 console.log(arr)
+
+var one , two , three
+
+const a = {
+
+    name : "Ashwani",
+    email : "ashwani.mishra938@gmail.com"
+}
 

@@ -15,6 +15,9 @@ console.log("2" > 2)
  console.log(null == 0) // null is empty and now assigned a value of 0 by loose equality operator
  console.log(null >= 0) // now value is 0 so it is greter than 0
 
- alert("Hello")
+ //alert("Hello")
 
- alert(10 * 5)
+ //alert(10 * 5)
+
+ console.log("3" == 3)
+ 

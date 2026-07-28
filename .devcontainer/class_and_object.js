@@ -23,7 +23,7 @@ constructor(username,userID,marks){
 const n = new A("hitesh",121,635)
 console.log(n)
 const n1 = new A("akash",165,686)
-console.log(n1)
+console.log(n1.userID)
 const n3 = new A("adarsh",195,986)
 console.log(n3)
 
@@ -40,5 +40,54 @@ class B{
 const n5 = new B("akash",12890,"True")
 console.log(n5)
 console.log(this)
+
+
+class C{
+    constructor(empName,empID,empSalary){
+        this.empName=empName
+        this.empID = empID
+        this.empSalary = empSalary
+    }
+}
+
+const k = new C("hitesh",1783346,23000)
+const l = new C("Ashwani",234567,56000)
+
+console.log(k)
+console.log(l)
+
+
+
+
+
+function emp(empName,empID,empSalary){
+    this.empName=empName
+    this.empID = empID
+    this.empSalary = empSalary
+}
+
+const i = new emp("Ashwani",234121,98400)
+const t = new emp("rakesh",124538,98000)
+
+console.log(i)
+console.log(t)
+
+const greetings = "Hello world"
+for(const key in greetings){
+    console.log(key)
+} 
+
+const g = {
+    game : "nfs",
+    game1 : "spiderman",
+    gam2 : "fifa"
+}
+
+for(const key in g){
+    console.log(g[key])
+}
+
+const n10 = new A("akash",165,686)
+console.log(n10.marks)
 
 

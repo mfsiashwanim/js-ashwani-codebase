@@ -47,3 +47,24 @@ console.log(s.substring(0,3).length === s1.length)
 console.log(s.split(s.substring(0,4)).length-1)
 console.log(new Set(s.substring(0,4)))
 */
+
+console.log(s.split())
+let arr = new Array()
+const sn = new String("abcdef")
+for(const key in sn){
+    arr.push(sn.charAt(key))
+}
+console.log(arr)
+
+s = "abcdef"
+console.log(s.split(""))
+
+
+s1 = "abcabcabc"
+console.log(s1.lastIndexOf('b'))
+
+const URL = "https://ashwani.mishra@938gmail.com"
+console.log(URL.replace('@','-'))
+
+let arr9 = Array.fromArray(sn)
+console.log(arr9)

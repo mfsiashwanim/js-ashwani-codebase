@@ -1,0 +1,10 @@
+version : '3.8'
+services : 
+         playwright-test:
+         image : playwright-test
+         build :
+             context : .
+             dockerfile : ./Dockerfile
+             RUN : npm run myfirsttest.spec.ts
+         volumes : 
+               - /.playwright-report/app/playwright-test
